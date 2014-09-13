@@ -1,0 +1,23 @@
+{
+  "name": "am-position",
+  "homepage": "https://github.com/VinSpee/am-position",
+  "authors": [
+    "Vince Speelman <v@vinspee.me>"
+  ],
+  "description": "CSS Sizing utilities",
+  "main": "index.css",
+  "keywords": [
+    "css",
+    "am-css",
+    "amcss",
+    "suit"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
