@@ -2,6 +2,38 @@
   position: absolute !important;
 }
 
+[data-am-position~="top"] {
+	top: 0;
+}
+
+[data-am-position~="left"] {
+	left: 0;
+}
+
+[data-am-position~="right"] {
+	right: 0;
+}
+
+[data-am-position~="bottom"] {
+	bottom: 0;
+}
+
+[data-am-position~="offBottom"] {
+	top: 100%;
+}
+
+[data-am-position~="offRight"] {
+	left: 100%;
+}
+
+[data-am-position~="offLeft"] {
+	right: 100%;
+}
+
+[data-am-position~="offTop"] {
+	bottom: 100%;
+}
+
 /**
  * Pins to all corners by default. But when a width and/or height are
  * provided, the element will be centered in its nearest relatively-positioned
